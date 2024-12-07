@@ -1,20 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Cookie&display=swap');
 
-/* 
-.container {
-    width: 100%;
-    max-width: 1440px;
-    margin-right: auto;
-    margin-left: auto;
-} */
-
-/* .row {
-    width: 100%;
-    padding-left: 96px;
-    padding-right: 96px;
-} */
-
 /*=============GENERAL CSS==============*/
 .category-tiles-container {
     margin-top: 10px;
@@ -22,7 +8,7 @@
 
 .category-grid {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: space-between;
 }
 
@@ -31,11 +17,11 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    padding-left: 70px;
+    padding-left: 30px;
 }
 
 .single-category-grid {
-    width: 50%;
+    width: 100%;
     display: flex;
     flex-wrap: wrap;
     align-items: center;
@@ -45,7 +31,7 @@
 .category-tile {
     height: 325px;
     padding-left: 30px;
-    width: 50%;
+    width: 100%;
     display: flex;
     align-items: center;
     /* justify-content: left; */
@@ -79,136 +65,181 @@
     color: #777777;
 }
 
-/*=========END GENERAL CSS============*/
-/*===========Grid System Classes============= */
 
-
-
-/* Global Box Sizing */
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
-body {
-    font-family: "Montserrat", sans-serif !important;
-    line-height: 1.6;
-}
-
-p {
-    font-size: 14px;
-    font-family: "Montserrat", sans-serif;
-    color: #666666;
-    font-weight: 500;
-    line-height: 24px;
-    margin: 0 0 15px 0;
+.browse-product-container {
+    padding-top: 60px;
 }
 
 
-/* Container */
-.container {
-    width: 100%;
-    max-width: 1440px;
-    margin: 0 auto;
-    padding: 0 96px;
-}
-
-/* Container Fluid */
-.container-fluid {
-    width: 100%;
-    padding-left: 15px;
-    padding-right: 15px;
-}
-
-/* Flexbox Row */
-.row {
+.heading-link-container {
     display: flex;
+    gap: 35px;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin-bottom: 45px;
+}
+
+.browse-product-container .heading-link-container h1 {
+    position: relative;
+    font-weight: 500;
+    text-transform: uppercase;
+    padding-bottom: 5px;
+}
+
+.browse-product-container .heading-link-container h1:after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    height: 2px;
+    width: 50%;
+    background-color: #ca1515;
+}
+
+.browse-product-container .heading-link-container ul {
+    list-style: none;
+    display: flex;
+    gap: 15px;
     flex-wrap: wrap;
-    /* gap: 15px; */
-    /* Space between columns */
-    margin-left: -15px;
-    /* To counteract padding from columns */
-    margin-right: -15px;
+    position: relative;
 }
 
-/* Column Classes - Default (col-1 to col-12) */
-[class*="col-"] {
-    padding: 0 15px;
-    box-sizing: border-box;
+.browse-product-container .heading-link-container ul li a {
+    text-decoration: none;
+    color: #333333;
+    font-size: 14px;
+    position: relative;
+    padding-bottom: 5px;
 }
 
-/* Column Size for different screen sizes (responsive grid) */
-.col-1 {
-    flex: 0 0 8.33%;
+.browse-product-container .heading-link-container ul li a:after {
+    content: "";
+    width: 0;
+    height: 2px;
+    background-color: #ca1515;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transition: all 0.3s ease;
 }
 
-/* 1 column */
-.col-2 {
-    flex: 0 0 16.66%;
+.browse-product-container .heading-link-container ul li a:hover:after {
+    width: 100%;
+    left: 0;
 }
 
-/* 2 columns */
-.col-3 {
-    flex: 0 0 25%;
+.browse-product-container .heading-link-container ul li .active::after {
+    content: "";
+    width: 100%;
+    height: 2px;
+    background-color: #ca1515;
+    position: absolute;
+    bottom: 0;
+    left: 0;
 }
 
-/* 3 columns */
-.col-4 {
-    flex: 0 0 33.33%;
+.single-product {
+    position: relative;
+    width: 100%;
+    height: auto;
+    margin-bottom: 35px;
+    margin-right: auto;
+    margin-left: auto;
 }
 
-/* 4 columns */
-.col-5 {
-    flex: 0 0 41.66%;
+.product-sale-badge {
+    position: absolute;
+    background: #ca1515;
+    color: #fff;
+    padding: 2px 5px;
+    top: 10px;
+    left: 10px;
+    font-size: 12px;
 }
 
-/* 5 columns */
-.col-6 {
-    flex: 0 0 50%;
+.single-product .product-image img {
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
 }
 
-/* 6 columns */
-.col-7 {
-    flex: 0 0 58.33%;
+.single-product .product-details {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    padding-top: 22px;
+    gap: 5px;
+    background-color: #fff;
+    z-index: 1;
 }
 
-/* 7 columns */
-.col-8 {
-    flex: 0 0 66.66%;
+.single-product .product-details h4 {
+    font-size: 14px;
+    font-weight: 400;
+    color: #111111;
 }
 
-/* 8 columns */
-.col-9 {
-    flex: 0 0 75%;
+.single-product .product-details h2 {
+    font-weight: 600;
+    font-size: 16px;
 }
 
-/* 9 columns */
-.col-10 {
-    flex: 0 0 83.33%;
+.product-actions-section {
+    position: absolute;
+    bottom: 115px;
+    left: 0;
+    right: 0;
+    list-style: none;
+    display: flex;
+    gap: 10px;
+    justify-content: center;
 }
 
-/* 10 columns */
-.col-11 {
-    flex: 0 0 91.66%;
+.product-actions-section li {
+
+    top: 100px;
+    opacity: 0;
+    position: relative;
+
 }
 
-/* 11 columns */
-.col-12 {
-    flex: 0 0 100%;
+.product-actions-section li:nth-child(1) {
+    transition: all 0.4s ease 0.1s;
 }
 
-/* 12 columns */
+.product-actions-section li:nth-child(2) {
+    transition: all 0.4s ease 0.15s;
+}
 
+.product-actions-section li:nth-child(3) {
+    transition: all 0.4s ease 0.2s;
+}
 
+.single-product:hover .product-actions-section li {
+    opacity: 1;
+    top: 0;
+}
 
-/*End Grid System Classes */
+.product-actions-section li a {
+    display: flex;
+    width: 45px;
+    height: 45px;
+    justify-content: center;
+    background-color: #efefef;
+    text-decoration: none;
+    color: #111111;
+    align-items: center;
+    border-radius: 50%;
+    transition: all, 0.5s;
+}
 
+.product-actions-section li a:hover {
+    background-color: #ca1515;
+    color: #fff;
+}
 
-
-
-
-
+/*=========END GENERAL CSS============*/
 
 /* ============Header Css ==============*/
 .header-container {
@@ -231,6 +262,10 @@ p {
     justify-content: space-between;
     align-items: center;
 
+}
+
+.header-content .header-links-section {
+    display: none;
 }
 
 .header-content .header-links-section ul {
@@ -533,152 +568,390 @@ p {
 
 .header-sidebar-btn {
     font-size: 20px;
-    display: none;
+    display: block;
+}
+
+/*===========Grid System Classes============= */
+/* Global Box Sizing */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Montserrat", sans-serif !important;
+    line-height: 1.6;
+}
+
+p {
+    font-size: 14px;
+    font-family: "Montserrat", sans-serif;
+    color: #666666;
+    font-weight: 500;
+    line-height: 24px;
+    margin: 0 0 15px 0;
 }
 
 
-/* Medium devices  */
+/* Container */
+.container {
+    width: 100%;
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 0 25px;
+}
 
+/* Container Fluid */
+.container-fluid {
+    width: 100%;
+    padding-left: 25px;
+    padding-right: 25px;
+}
 
-/* Media Queries for Responsive Layouts */
-/*for Laptop*/
-@media (max-width: 1024px) {
-    .header-container .header-content .header-links-section {
-        display: none;
+/* Flexbox Row */
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    /* gap: 15px; */
+    /* Space between columns */
+    margin-left: -15px;
+    /* To counteract padding from columns */
+    margin-right: -15px;
+}
+
+/* Column Classes - Default (col-1 to col-12) */
+[class*="col-"] {
+    padding: 0 15px;
+    box-sizing: border-box;
+}
+
+/* Column Size for different screen sizes (responsive grid) */
+.col-1 {
+    flex: 0 0 8.33%;
+}
+
+/* 1 column */
+.col-2 {
+    flex: 0 0 16.66%;
+}
+
+/* 2 columns */
+.col-3 {
+    flex: 0 0 25%;
+}
+
+/* 3 columns */
+.col-4 {
+    flex: 0 0 33.33%;
+}
+
+/* 4 columns */
+.col-5 {
+    flex: 0 0 41.66%;
+}
+
+/* 5 columns */
+.col-6 {
+    flex: 0 0 50%;
+}
+
+/* 6 columns */
+.col-7 {
+    flex: 0 0 58.33%;
+}
+
+/* 7 columns */
+.col-8 {
+    flex: 0 0 66.66%;
+}
+
+/* 8 columns */
+.col-9 {
+    flex: 0 0 75%;
+}
+
+/* 9 columns */
+.col-10 {
+    flex: 0 0 83.33%;
+}
+
+/* 10 columns */
+.col-11 {
+    flex: 0 0 91.66%;
+}
+
+/* 11 columns */
+.col-12 {
+    flex: 0 0 100%;
+}
+
+/* 12 columns */
+
+/* For Mobile Devices or col-sm*/
+@media (min-width: 576px) {
+
+    /* Small Screens (Smartphones and above) */
+    .col-sm-1 {
+        flex: 0 0 8.33%;
     }
 
-    .header-sidebar-btn {
+    .col-sm-2 {
+        flex: 0 0 16.66%;
+    }
+
+    .col-sm-3 {
+        flex: 0 0 25%;
+    }
+
+    .col-sm-4 {
+        flex: 0 0 33.33%;
+    }
+
+    .col-sm-5 {
+        flex: 0 0 41.66%;
+    }
+
+    .col-sm-6 {
+        flex: 0 0 50%;
+    }
+
+    .col-sm-7 {
+        flex: 0 0 58.33%;
+    }
+
+    .col-sm-8 {
+        flex: 0 0 66.66%;
+    }
+
+    .col-sm-9 {
+        flex: 0 0 75%;
+    }
+
+    .col-sm-10 {
+        flex: 0 0 83.33%;
+    }
+
+    .col-sm-11 {
+        flex: 0 0 91.66%;
+    }
+
+    .col-sm-12 {
+        flex: 0 0 100%;
+    }
+
+
+    .browse-product-container .heading-link-container ul {
+        gap: 35px;
+    }
+
+}
+
+/* For Tablet Devices or col-md */
+
+
+@media (min-width: 768px) {
+
+    .container {
+        padding: 0 96px;
+    }
+
+    .col-md-1 {
+        flex: 0 0 8.33%;
+    }
+
+    .col-md-2 {
+        flex: 0 0 16.66%;
+    }
+
+    .col-md-3 {
+        flex: 0 0 25%;
+    }
+
+    .col-md-4 {
+        flex: 0 0 33.33%;
+    }
+
+    .col-md-5 {
+        flex: 0 0 41.66%;
+    }
+
+    .col-md-6 {
+        flex: 0 0 50%;
+    }
+
+    .col-md-7 {
+        flex: 0 0 58.33%;
+    }
+
+    .col-md-8 {
+        flex: 0 0 66.67%;
+    }
+
+    .col-md-9 {
+        flex: 0 0 75%;
+    }
+
+    .col-md-10 {
+        flex: 0 0 83.33%;
+    }
+
+    .col-md-11 {
+        flex: 0 0 91.66%;
+    }
+
+    .col-md-12 {
+        flex: 0 0 100%;
+    }
+
+}
+
+/* For Large Devices like Laptop or col-lg */
+@media (min-width: 991px) {
+
+
+    .col-lg-1 {
+        flex: 0 0 8.33%;
+    }
+
+    .col-lg-2 {
+        flex: 0 0 16.66%;
+    }
+
+    .col-lg-3 {
+        flex: 0 0 25%;
+    }
+
+    .col-lg-4 {
+        flex: 0 0 33.33%;
+    }
+
+    .col-lg-5 {
+        flex: 0 0 41.66%;
+    }
+
+    .col-lg-6 {
+        flex: 0 0 50%;
+    }
+
+    .col-lg-7 {
+        flex: 0 0 58.33%;
+    }
+
+    .col-lg-8 {
+        flex: 0 0 66.66%;
+    }
+
+    .col-lg-9 {
+        flex: 0 0 75%;
+    }
+
+    .col-lg-10 {
+        flex: 0 0 83.33%;
+    }
+
+    .col-lg-11 {
+        flex: 0 0 91.66%;
+    }
+
+    .col-lg-12 {
+        flex: 0 0 100%;
+    }
+
+    .grid-large {
+        padding-left: 70px;
+    }
+
+    .header-container .header-content .header-links-section {
         display: block;
     }
 
-
-    .container {
-        padding: 0 15px;
-    }
-
-    /* .row {
-        width: 100%;
-        padding-left: 15px;
-        padding-right: 15px;
-    } */
-
-}
-
-@media (max-width: 991px) {
-
-    .grid-large {
-        padding-left: 30px;
+    .header-sidebar-btn {
+        display: none;
     }
 
     .category-grid {
-        flex-direction: column;
+        flex-direction: row;
     }
 
     .single-category-grid {
-        width: 100%;
+        width: 50%;
     }
-}
-
-/* For Tablet Devices */
-
-
-@media (max-width: 768px) {
-    .col-1 {
-        flex: 0 0 50%;
-    }
-
-    .col-2 {
-        flex: 0 0 50%;
-    }
-
-    .col-3 {
-        flex: 0 0 100%;
-    }
-
-    .col-4 {
-        flex: 0 0 50%;
-    }
-
-    .col-5 {
-        flex: 0 0 50%;
-    }
-
-    .col-6 {
-        flex: 0 0 100%;
-    }
-
-    .col-7 {
-        flex: 0 0 100%;
-    }
-
-    .col-8 {
-        flex: 0 0 100%;
-    }
-
-    .col-9 {
-        flex: 0 0 100%;
-    }
-
-    .col-10 {
-        flex: 0 0 100%;
-    }
-
-    .col-11 {
-        flex: 0 0 100%;
-    }
-}
-
-/* For Mobile Devices */
-@media (max-width: 480px) {
 
     .category-tile {
-        width: 100%;
+        width: 50%;
     }
 
-    .col-1 {
-        flex: 0 0 100%;
+    .browse-product-container .heading-link-container {
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
     }
 
-    .col-2 {
-        flex: 0 0 100%;
+    /* .browse-product-container .heading-link-container ul {
+        gap: 5px;
+    } */
+}
+
+
+@media (min-width: 1200px) {
+    /* .header-container .header-content .header-links-section {
+        display: none;
+    } */
+
+
+
+    .col-xl-1 {
+        flex: 0 0 8.33%;
     }
 
-    .col-3 {
-        flex: 0 0 100%;
+    .col-xl-2 {
+        flex: 0 0 16.66%;
     }
 
-    .col-4 {
-        flex: 0 0 100%;
+    .col-xl-3 {
+        flex: 0 0 25%;
     }
 
-    .col-5 {
-        flex: 0 0 100%;
+    .col-xl-4 {
+        flex: 0 0 33.33%;
     }
 
-    .col-6 {
-        flex: 0 0 100%;
+    .col-xl-5 {
+        flex: 0 0 41.66%;
     }
 
-    .col-7 {
-        flex: 0 0 100%;
+    .col-xl-6 {
+        flex: 0 0 50%;
     }
 
-    .col-8 {
-        flex: 0 0 100%;
+    .col-xl-7 {
+        flex: 0 0 58.33%;
     }
 
-    .col-9 {
-        flex: 0 0 100%;
+    .col-xl-8 {
+        flex: 0 0 66.66%;
     }
 
-    .col-10 {
-        flex: 0 0 100%;
+    .col-xl-9 {
+        flex: 0 0 75%;
     }
 
-    .col-11 {
+    .col-xl-10 {
+        flex: 0 0 83.33%;
+    }
+
+    .col-xl-11 {
+        flex: 0 0 91.66%;
+    }
+
+    .col-xl-12 {
         flex: 0 0 100%;
     }
 }
+
+
+
 
 /* Small devices (phones) */
 @media (max-width: 600px) {}

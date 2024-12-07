@@ -43,5 +43,171 @@
                 </div>
             </div>
         </section>
+        <section class="browse-product-container">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <div class="heading-link-container">
+                            <h1>New Products</h1>
+                            <ul>
+                                <li><a href="#" class="active">All</a></li>
+                                <li><a href="#">Women's</a></li>
+                                <li><a href="#">Men's</a></li>
+                                <li><a href="#">Kid's</a></li>
+                                <li><a href="#">Accessories</a></li>
+                                <li><a href="#">Cosmetics</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-3 col-md-4 col-sm-6 col-12">
+                        <div class="single-product">
+                            <span class="product-sale-badge">SALE</span>
+                            <div class="product-image">
+                                <img src="/img/product/product-1.jpg" alt="">
+                            </div>
+                            <div class="product-details">
+                                <h4>Buttons tweed blazer</h4>
+                                <h2>$ 59.00</h2>
+                            </div>
+                            <ul class="product-actions-section">
+                                <li><a href="#"><i class="fa-solid fa-up-right-and-down-left-from-center"></i></a>
+                                </li>
+                                <li><a href="#"><i class="fa-regular fa-heart"></i></a></li>
+                                <li><a href="#"><i class="fa-solid fa-bag-shopping"></i></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-4 col-sm-6 col-12">
+                        <div class="single-product">
+                            <span class="product-sale-badge">SALE</span>
+                            <div class="product-image">
+                                <img src="/img/product/product-2.jpg" alt="">
+                            </div>
+                            <div class="product-details">
+                                <h4>Flowy striped skirt</h4>
+                                <h2>$ 59.00</h2>
+                            </div>
+                            <ul class="product-actions-section">
+                                <li><a href="#"><i class="fa-solid fa-up-right-and-down-left-from-center"></i></a>
+                                </li>
+                                <li><a href="#"><i class="fa-regular fa-heart"></i></a></li>
+                                <li><a href="#"><i class="fa-solid fa-bag-shopping"></i></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-4 col-sm-6 col-12">
+                        <div class="single-product">
+                            <span class="product-sale-badge">SALE</span>
+                            <div class="product-image">
+                                <img src="/img/product/product-3.jpg" alt="">
+                            </div>
+                            <div class="product-details">
+                                <h4>Cotton T-Shirt
+                                </h4>
+                                <h2>$ 59.00</h2>
+                            </div>
+                            <ul class="product-actions-section">
+                                <li><a href="#"><i class="fa-solid fa-up-right-and-down-left-from-center"></i></a>
+                                </li>
+                                <li><a href="#"><i class="fa-regular fa-heart"></i></a></li>
+                                <li><a href="#"><i class="fa-solid fa-bag-shopping"></i></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-4 col-sm-6 col-12">
+                        <div class="single-product">
+                            <span class="product-sale-badge">SALE</span>
+                            <div class="product-image">
+                                <img src="/img/product/product-4.jpg" alt="">
+                            </div>
+                            <div class="product-details">
+                                <h4>Slim striped pocket shirt</h4>
+                                <h2>$ 59.00</h2>
+                            </div>
+                            <ul class="product-actions-section">
+                                <li><a href="#"><i class="fa-solid fa-up-right-and-down-left-from-center"></i></a>
+                                </li>
+                                <li><a href="#"><i class="fa-regular fa-heart"></i></a></li>
+                                <li><a href="#"><i class="fa-solid fa-bag-shopping"></i></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-4 col-sm-6 col-12">
+                        <div class="single-product">
+                            <span class="product-sale-badge">SALE</span>
+                            <div class="product-image">
+                                <img src="/img/product/product-5.jpg" alt="">
+                            </div>
+                            <div class="product-details">
+                                <h4>Fit micro corduroy shirt</h4>
+                                <h2>$ 59.00</h2>
+                            </div>
+                            <ul class="product-actions-section">
+                                <li><a href="#"><i class="fa-solid fa-up-right-and-down-left-from-center"></i></a>
+                                </li>
+                                <li><a href="#"><i class="fa-regular fa-heart"></i></a></li>
+                                <li><a href="#"><i class="fa-solid fa-bag-shopping"></i></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-4 col-sm-6 col-12">
+                        <div class="single-product">
+                            <span class="product-sale-badge">SALE</span>
+                            <div class="product-image">
+                                <img src="/img/product/product-6.jpg" alt="">
+                            </div>
+                            <div class="product-details">
+                                <h4>Tropical Kimono</h4>
+                                <h2>$ 59.00</h2>
+                            </div>
+                            <ul class="product-actions-section">
+                                <li><a href="#"><i class="fa-solid fa-up-right-and-down-left-from-center"></i></a>
+                                </li>
+                                <li><a href="#"><i class="fa-regular fa-heart"></i></a></li>
+                                <li><a href="#"><i class="fa-solid fa-bag-shopping"></i></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-4 col-sm-6 col-12">
+                        <div class="single-product">
+                            <span class="product-sale-badge">SALE</span>
+                            <div class="product-image">
+                                <img src="/img/product/product-7.jpg" alt="">
+                            </div>
+                            <div class="product-details">
+                                <h4>Contrasting sunglasses</h4>
+                                <h2>$ 59.00</h2>
+                            </div>
+                            <ul class="product-actions-section">
+                                <li><a href="#"><i class="fa-solid fa-up-right-and-down-left-from-center"></i></a>
+                                </li>
+                                <li><a href="#"><i class="fa-regular fa-heart"></i></a></li>
+                                <li><a href="#"><i class="fa-solid fa-bag-shopping"></i></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-4 col-sm-6 col-12">
+                        <div class="single-product">
+                            <span class="product-sale-badge">SALE</span>
+                            <div class="product-image">
+                                <img src="/img/product/product-8.jpg" alt="">
+                            </div>
+                            <div class="product-details">
+                                <h4>Water resistant backpack</h4>
+                                <h2>$ 59.00</h2>
+                            </div>
+                            <ul class="product-actions-section">
+                                <li><a href="#"><i class="fa-solid fa-up-right-and-down-left-from-center"></i></a>
+                                </li>
+                                <li><a href="#"><i class="fa-regular fa-heart"></i></a></li>
+                                <li><a href="#"><i class="fa-solid fa-bag-shopping"></i></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
     </div>
 @endsection
