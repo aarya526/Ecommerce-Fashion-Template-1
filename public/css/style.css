@@ -68,6 +68,7 @@
 
 .browse-product-container {
     padding-top: 60px;
+    padding-bottom: 50px;
 }
 
 
@@ -80,20 +81,21 @@
     margin-bottom: 45px;
 }
 
-.browse-product-container .heading-link-container h1 {
+.section-title h1 {
     position: relative;
     font-weight: 500;
     text-transform: uppercase;
     padding-bottom: 5px;
+    font-size: 24px;
 }
 
-.browse-product-container .heading-link-container h1:after {
+.section-title h1:after {
     content: "";
     position: absolute;
     bottom: 0;
     left: 0;
     height: 2px;
-    width: 50%;
+    width: 80px;
     background-color: #ca1515;
 }
 
@@ -237,6 +239,107 @@
 .product-actions-section li a:hover {
     background-color: #ca1515;
     color: #fff;
+}
+
+.promotion-banner {
+    height: 500px;
+    background-image: url('/img/banner/banner-1.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.promotion-banner-content {
+    width: 100%;
+    text-align: center;
+    margin-top: 150px;
+}
+
+.promotion-banner-content .sub-heading {
+    font-size: 18px;
+    color: #ca1515;
+    text-transform: uppercase;
+    font-weight: 300;
+}
+
+.promotion-banner-content .main-heading {
+    font-size: 50px;
+    color: #111111;
+    font-weight: lighter;
+    font-family: 'Cookie', Cursive;
+    margin-bottom: 15px;
+    line-height: 1;
+}
+
+.promotion-banner .owl-theme .owl-nav.disabled+.owl-dots {
+    margin-top: 10px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: -150px;
+}
+
+.promotion-banner .owl-theme .owl-dots .owl-dot {
+    display: inline-block;
+    zoom: 1.3;
+}
+
+.promotion-banner .owl-theme .owl-dots .owl-dot span {
+    margin: 5px;
+}
+
+.promotion-banner .owl-theme .owl-dots .owl-dot.active span {
+    background-color: #ca1515;
+}
+
+.promotion-banner .owl-theme .owl-dots .owl-dot:hover span {
+    background: #777777;
+
+}
+
+.trending-product-content {
+    margin-bottom: 45px;
+}
+
+.trending-products-banner {
+    padding-top: 80px;
+    padding-bottom: 50px;
+}
+
+.trending-products-banner .section-title {
+    margin-bottom: 45px;
+}
+
+.trending-products-banner .trending-product-lists {
+    display: flex;
+    flex-direction: column;
+    gap: 35px;
+}
+
+.trending-product-lists .product-container {
+    display: flex;
+}
+
+.trending-product-lists .product-container {
+    display: flex;
+    gap: 25px;
+}
+
+.trending-product-lists .product-container .image img {
+    width: 100%;
+    margin: 0 auto;
+}
+
+.trending-product-lists .product-container .product-detail .name {
+    font-size: 14px;
+    color: #111111;
+    font-weight: 300;
+    margin-bottom: 5px;
+}
+
+.trending-product-lists .product-container .product-detail .price {
+    color: #111111;
+    font-weight: 500;
 }
 
 /*=========END GENERAL CSS============*/
@@ -688,6 +791,14 @@ p {
 
 /* 12 columns */
 
+
+/*=========Global Css===========*/
+.m-auto {
+    margin: auto !important;
+}
+
+/*========End Global Css==========*/
+
 /* For Mobile Devices or col-sm*/
 @media (min-width: 576px) {
 
@@ -744,6 +855,11 @@ p {
     .browse-product-container .heading-link-container ul {
         gap: 35px;
     }
+
+    .promotion-banner-content .main-heading {
+        font-size: 80px;
+    }
+
 
 }
 
@@ -893,7 +1009,7 @@ p {
     } */
 }
 
-
+/* For Extra Large Devices like Laptop or col-xl */
 @media (min-width: 1200px) {
     /* .header-container .header-content .header-links-section {
         display: none;

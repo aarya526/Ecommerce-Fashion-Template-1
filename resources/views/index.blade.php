@@ -48,7 +48,9 @@
                 <div class="row">
                     <div class="col-12">
                         <div class="heading-link-container">
-                            <h1>New Products</h1>
+                            <div class="section-title">
+                                <h1>New Products</h1>
+                            </div>
                             <ul>
                                 <li><a href="#" class="active">All</a></li>
                                 <li><a href="#">Women's</a></li>
@@ -206,6 +208,143 @@
                             </ul>
                         </div>
                     </div>
+                </div>
+            </div>
+        </section>
+        <section class="promotion-banner">
+            <div class="container">
+                <div class="row">
+                    <div class="owl-carousel owl-theme">
+                        <div class="col-7 col-xl-7 col-md-7 col-sm-12 m-auto">
+                            <div class="promotion-banner-content">
+                                <h2 class="sub-heading">The Chloe Collection</h2>
+                                <h1 class="main-heading">The Project Jacket</h1>
+                                <a href="#" class="link-cta-1">Shop Now</a>
+                            </div>
+                        </div>
+                        <div class="col-7 col-xl-7 col-md-7 col-sm-12 m-auto">
+                            <div class="promotion-banner-content">
+                                <h2 class="sub-heading">The Chloe Collection</h2>
+                                <h1 class="main-heading">The Project Jacket</h1>
+                                <a href="#" class="link-cta-1">Shop Now</a>
+                            </div>
+                        </div>
+                        <div class="col-7 col-xl-7 col-md-7 col-sm-12 m-auto">
+                            <div class="promotion-banner-content">
+                                <h2 class="sub-heading">The Chloe Collection</h2>
+                                <h1 class="main-heading">The Project Jacket</h1>
+                                <a href="#" class="link-cta-1">Shop Now</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="trending-products-banner">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-4 col-md-6 col-sm-12">
+                        <div class="trending-product-content">
+                            <div class="section-title">
+                                <h1>Hot Trend</h1>
+                            </div>
+                            <div class="trending-product-lists">
+                                <div class="product-container">
+                                    <div class="image"><img src="/img/trend/ht-1.jpg.webp" alt=""></div>
+                                    <div class="product-detail">
+                                        <h3 class="name">Chain Bucket Bag</h3>
+                                        <h3 class="price">$59.0</h3>
+                                    </div>
+                                </div>
+                                <div class="product-container">
+                                    <div class="image"><img src="/img/trend/ht-2.jpg.webp" alt=""></div>
+                                    <div class="product-detail">
+                                        <h3 class="name">Chain Bucket Bag</h3>
+                                        <h3 class="price">$59.0</h3>
+                                    </div>
+                                </div>
+                                <div class="product-container">
+                                    <div class="image"><img src="/img/trend/ht-3.jpg.webp" alt=""></div>
+                                    <div class="product-detail">
+                                        <h3 class="name">Chain Bucket Bag</h3>
+                                        <h3 class="price">$59.0</h3>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-12">
+                        <div class="trending-product-content">
+                            <div class="section-title">
+                                <h1>Best Seller</h1>
+                            </div>
+                            <div class="trending-product-lists">
+                                <div class="product-container">
+                                    <div class="image"><img src="/img/trend/bs-1.jpg.webp" alt=""></div>
+                                    <div class="product-detail">
+                                        <h3 class="name">Chain Bucket Bag</h3>
+                                        <h3 class="price">$59.0</h3>
+                                    </div>
+                                </div>
+                                <div class="product-container">
+                                    <div class="image"><img src="/img/trend/bs-2.jpg.webp" alt=""></div>
+                                    <div class="product-detail">
+                                        <h3 class="name">Chain Bucket Bag</h3>
+                                        <h3 class="price">$59.0</h3>
+                                    </div>
+                                </div>
+                                <div class="product-container">
+                                    <div class="image"><img src="/img/trend/bs-3.jpg.webp" alt=""></div>
+                                    <div class="product-detail">
+                                        <h3 class="name">Chain Bucket Bag</h3>
+                                        <h3 class="price">$59.0</h3>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-12">
+                        <div class="trending-product-content">
+                            <div class="section-title">
+                                <h1>Featured</h1>
+                            </div>
+                            <div class="trending-product-lists">
+                                <div class="product-container">
+                                    <div class="image"><img src="/img/trend/f-1.jpg.webp" alt=""></div>
+                                    <div class="product-detail">
+                                        <h3 class="name">Chain Bucket Bag</h3>
+                                        <h3 class="price">$59.0</h3>
+                                    </div>
+                                </div>
+                                <div class="product-container">
+                                    <div class="image"><img src="/img/trend/f-2.jpg.webp" alt=""></div>
+                                    <div class="product-detail">
+                                        <h3 class="name">Chain Bucket Bag</h3>
+                                        <h3 class="price">$59.0</h3>
+                                    </div>
+                                </div>
+                                <div class="product-container">
+                                    <div class="image"><img src="/img/trend/f-3.jpg.webp" alt=""></div>
+                                    <div class="product-detail">
+                                        <h3 class="name">Chain Bucket Bag</h3>
+                                        <h3 class="price">$59.0</h3>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="discount-counter-section">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-6 col-md-6 col-sm-12">
+                        <div class="discount-image-section">
+                            <img src="/img/discount.jpg" alt="">
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-md-6 col-sm-12"></div>
                 </div>
             </div>
         </section>
