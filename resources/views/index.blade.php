@@ -337,14 +337,19 @@
             </div>
         </section>
         <section class="discount-counter-section">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-6 col-md-6 col-sm-12">
-                        <div class="discount-image-section">
-                            <img src="/img/discount.jpg" alt="">
+            <div class="discount-image-section">
+                <img src="/img/discount.jpg" alt="">
+            </div>
+            <div class="discount-details-section">
+                <div class="discount-details">
+                    <div class="discount-section">
+                        <div class="discount-text">
+                            <h4>Discount</h4>
+                            <h1>Summer 2019</h1>
+                            <h3>SALE <span>50%</span></h3>
                         </div>
                     </div>
-                    <div class="col-lg-6 col-md-6 col-sm-12"></div>
+                    <a href="#" class="link-cta-1">Shop Now</a>
                 </div>
             </div>
         </section>

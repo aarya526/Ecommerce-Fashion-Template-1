@@ -342,6 +342,84 @@
     font-weight: 500;
 }
 
+.discount-counter-section {
+    width: 100%;
+    max-width: 1440px;
+    padding: 0 96px;
+    display: flex;
+    flex-direction: row;
+}
+
+.discount-image-section {
+    width: 50%;
+    height: auto;
+}
+
+.discount-image-section img {
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+}
+
+.discount-details-section {
+    width: 50%;
+    background-color: #f4f4f4;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+.discount-details-section .discount-details {
+    text-align: center;
+}
+
+.discount-details .discount-section {
+    position: relative;
+    text-align: center;
+    background: #fff;
+    width: 200px;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    margin-bottom: 40px;
+}
+
+.discount-text {
+    position: absolute;
+}
+
+.discount-details .discount-section .discount-text h4 {
+    font-size: 12px;
+    color: #111111;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+.discount-details .discount-section .discount-text h1 {
+    color: #ca1515;
+    font-family: 'Cookie', cursive;
+    font-weight: 200;
+    font-size: 68px;
+    line-height: 0.9;
+    width: 350px;
+}
+
+.discount-details .discount-section .discount-text h3 {
+    font-size: 14px;
+    color: #111111;
+    margin-right: 4px;
+    font-weight: 400;
+}
+
+.discount-details .discount-section .discount-text h3 span {
+    color: #ca1515;
+    font-weight: 700;
+}
+
+
 /*=========END GENERAL CSS============*/
 
 /* ============Header Css ==============*/
@@ -1064,6 +1142,7 @@ p {
     .col-xl-12 {
         flex: 0 0 100%;
     }
+
 }
 
 
